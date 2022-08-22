@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+body {
+  font-family: "Titillium Web", sans-serif;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+body .container {
+  padding: 0;
+}
+body main {
+  padding: 2rem 1rem;
+  background: rgb(255, 255, 255);
+  border-radius: 1.5rem 1.5rem 0 0;
+  position: relative;
+  top: -1rem;
+  box-shadow: 0 -1px 6px rgba(32, 32, 32, 0.5);
+}
+body main .text {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+body main .qr {
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+  color: rgb(4, 177, 230);
+}
+body main .subTitle {
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: 700;
+}
+body main .icon {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(4, 177, 230);
+}
+body main a {
+  text-decoration: none;
+}
+body main .card {
+  border-radius: 1.3rem;
+  background: linear-gradient(225deg, #c3c3c3, #e8e8e8);
+  box-shadow: -20px 20px 60px #b8b8b8, 20px -20px 60px #fafafa;
+  margin: 2rem 0.3rem;
+}
+body main .card img {
+  border-radius: 1.3rem 1.3rem 0 0;
+  padding: 0.2rem;
+}
+body main .card .card-body {
+  padding: 0.3rem;
+}
+body main .card .card-body .card-title {
+  text-align: center;
+  color: #202020;
+}
+body footer p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
